@@ -1,0 +1,88 @@
+﻿
+<div class="modal fade" id="p_userForm">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header no-padding">
+               
+                <div class="nav-tabs-custom no-margin-bottom">
+                    <ul class="nav nav-tabs pull-right">
+                        <li class="active"><a href="#tab_1-1" data-toggle="tab" aria-expanded="true">Kullanıcı Bilgileri</a></li>
+                        <li class=""><a href="#tab_2-2" data-toggle="tab" aria-expanded="false">Departman/Takım</a></li>
+                        <li class="pull-left header"><h4 id="p_userForm_title"></h4></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab_1-1">
+                            
+                            <form action="../../index.html" method="post" id="frmRegister">
+                                <div class="form-group has-feedback">
+                                    <input id="user_FullName" type="text" class="form-control" placeholder="Ad Soyad">
+                                    <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <input id="user_Name" type="text" class="form-control" placeholder="Kullanıcı Adı">
+                                    <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <input id="user_Password" type="password" class="form-control" placeholder="Şifre">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <input id="user_RePassword" type="password" class="form-control" placeholder="Şifre Tekrar">
+                                    <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <input id="user_Email" type="email" class="form-control" placeholder="Email">
+                                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                                </div>
+
+
+
+                                <div class="row">
+                                    <div class="col-xs-8">
+                                        <button id="user_btnSave" type="button" class="btn btn-primary btn-block btn-flat">Kaydet</button>
+                                        <button id="user_btnRegister" type="button" class="btn btn-primary btn-block btn-flat">Hesap Oluştur</button>
+                                    </div>
+                                    <div class="col-xs-4 text-right">
+                                        <input type="checkbox" name="user_cbIsActive" checked>
+                                    </div>
+                                    <!-- /.col -->
+                                </div>
+
+
+                                
+
+                            </form>
+
+                        </div>
+                        <!-- /.tab-pane -->
+                        <div class="tab-pane" id="tab_2-2">
+                            <div id="dtList" class="form-group">
+                                <select class="form-control" name="departmanList" id="departmanList" onChange="User.GetDepartmentId(this);"></select>
+                            </div>
+                            <div id="dtList" class="form-group">
+                                <select class="form-control" name="teamList" id="teamList" onChange="User.GetTeamId(this);"></select>
+                            </div>
+
+                            <div id="dtList" class="form-group">
+                                <button id="user_btnSaveTeam" type="button" class="btn btn-success btn-block btn-flat">Ekle</button>
+                            </div>
+                            <table id="tblUserDepartmentTeamList" class="table table-hover" cellspacing="0" data-page-length='5' style="width:100%;">
+                                <thead>
+                                    <tr>
+                                        <th>Departman</th>
+                                        <th>Takım</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                        <!-- /.tab-pane -->
+                        
+                    </div>
+                    <!-- /.tab-content -->
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>

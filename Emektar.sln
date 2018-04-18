@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emektar.Data", "Emektar.Data\Emektar.Data.csproj", "{9C0B1294-CE5B-4704-9EF8-6C79CA507A63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emektar.BLL", "Emektar.BLL\Emektar.BLL.csproj", "{D77D1DAF-E3E6-4E73-A2F9-FF7048297102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emektar.Website", "Emektar.Website\Emektar.Website.csproj", "{129A2BBF-900B-49E9-8557-32EA96047A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emektar.Website.Tests", "Emektar.Website.Tests\Emektar.Website.Tests.csproj", "{C6C99EBE-0133-429B-BC70-124358EE5307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emektar.Service", "Emektar.Service\Emektar.Service.csproj", "{47397FC0-6799-42F2-A3E2-DAFAA5DC7926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emektar.Service.Tests", "Emektar.Service.Tests\Emektar.Service.Tests.csproj", "{2682E14F-9D9A-4728-AF72-F2D91DC03C76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emektar.Core", "Emektar.Core\Emektar.Core.csproj", "{2BBAA6FB-476E-477C-8D70-6AF48427D744}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C0B1294-CE5B-4704-9EF8-6C79CA507A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0B1294-CE5B-4704-9EF8-6C79CA507A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0B1294-CE5B-4704-9EF8-6C79CA507A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0B1294-CE5B-4704-9EF8-6C79CA507A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77D1DAF-E3E6-4E73-A2F9-FF7048297102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77D1DAF-E3E6-4E73-A2F9-FF7048297102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77D1DAF-E3E6-4E73-A2F9-FF7048297102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77D1DAF-E3E6-4E73-A2F9-FF7048297102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129A2BBF-900B-49E9-8557-32EA96047A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129A2BBF-900B-49E9-8557-32EA96047A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129A2BBF-900B-49E9-8557-32EA96047A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129A2BBF-900B-49E9-8557-32EA96047A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C99EBE-0133-429B-BC70-124358EE5307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C99EBE-0133-429B-BC70-124358EE5307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C99EBE-0133-429B-BC70-124358EE5307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C99EBE-0133-429B-BC70-124358EE5307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47397FC0-6799-42F2-A3E2-DAFAA5DC7926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47397FC0-6799-42F2-A3E2-DAFAA5DC7926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47397FC0-6799-42F2-A3E2-DAFAA5DC7926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47397FC0-6799-42F2-A3E2-DAFAA5DC7926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2682E14F-9D9A-4728-AF72-F2D91DC03C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2682E14F-9D9A-4728-AF72-F2D91DC03C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2682E14F-9D9A-4728-AF72-F2D91DC03C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2682E14F-9D9A-4728-AF72-F2D91DC03C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BBAA6FB-476E-477C-8D70-6AF48427D744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBAA6FB-476E-477C-8D70-6AF48427D744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BBAA6FB-476E-477C-8D70-6AF48427D744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BBAA6FB-476E-477C-8D70-6AF48427D744}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mehmetzantur.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Emektar.Data\\Emektar.Data.csproj
+		SccProjectName1 = Emektar.Data
+		SccLocalPath1 = Emektar.Data
+		SccProjectUniqueName2 = Emektar.BLL\\Emektar.BLL.csproj
+		SccProjectName2 = Emektar.BLL
+		SccLocalPath2 = Emektar.BLL
+		SccProjectUniqueName3 = Emektar.Website\\Emektar.Website.csproj
+		SccProjectName3 = Emektar.Website
+		SccLocalPath3 = Emektar.Website
+		SccProjectUniqueName4 = Emektar.Website.Tests\\Emektar.Website.Tests.csproj
+		SccProjectName4 = Emektar.Website.Tests
+		SccLocalPath4 = Emektar.Website.Tests
+		SccProjectUniqueName5 = Emektar.Service\\Emektar.Service.csproj
+		SccProjectName5 = Emektar.Service
+		SccLocalPath5 = Emektar.Service
+		SccProjectUniqueName6 = Emektar.Service.Tests\\Emektar.Service.Tests.csproj
+		SccProjectName6 = Emektar.Service.Tests
+		SccLocalPath6 = Emektar.Service.Tests
+		SccProjectUniqueName7 = Emektar.Core\\Emektar.Core.csproj
+		SccProjectName7 = Emektar.Core
+		SccLocalPath7 = Emektar.Core
+	EndGlobalSection
+EndGlobal
