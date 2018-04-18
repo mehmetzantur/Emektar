@@ -1,2 +1,2 @@
 # Emektar
-İş Yönetim Sistemi
+İş Yönetim Sistemi (Asp.net MVC)
